@@ -3,6 +3,7 @@ import 'package:netcure/hospitalmap.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:netcure/hospitalmap_new.dart';
 import 'dart:async';
+import 'hospitalmap.dart';
 import 'lang.dart';
 import 'auth.dart';
 
@@ -201,6 +202,12 @@ class _Login extends State<NetCure_Login> {
                                                 155, 246, 161, 1),
                                             child: Text('Login'),
                                             onPressed: () {
+                                              Navigator.push(
+                                                context,
+                                                MaterialPageRoute(
+                                                    builder: (context) =>
+                                                        MapNew()),
+                                              );
                                               print(nameController.text);
                                               print(passwordController.text);
                                             },
