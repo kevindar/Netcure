@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "495544109778",
+    "firebase_url": "https://netcure-60cad.firebaseio.com",
+    "project_id": "netcure-60cad",
+    "storage_bucket": "netcure-60cad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495544109778:android:8d4f3c3a0047e92a647b0b",
+        "android_client_info": {
+          "package_name": "com.example.netcure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495544109778-8io48s5der5ba4l9f3hto5lg2conjglh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMlYYcUjZ7SfL-GJE0SSzOxI20txOzUjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495544109778-8io48s5der5ba4l9f3hto5lg2conjglh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
